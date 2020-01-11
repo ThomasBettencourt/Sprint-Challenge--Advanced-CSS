@@ -199,6 +199,10 @@ p {
   padding: 1% 2.5%;
   flex-direction: row;
 }
+.header-image-container {
+  display: flex;
+  justify-content: center;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -240,6 +244,24 @@ p {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: black;
+  color: white;
+  width: 90px;
+  height: 44px;
+  border-radius: 6px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  vertical-align: middle;
+}
+.home .walk .walk-text .btn .btn-text {
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 13%;
 }
 .home .walk .walk-img {
   width: 46%;
