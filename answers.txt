@@ -1,0 +1,26 @@
+
+
+    What is the difference between an adaptive website and a fully responsive website?
+    
+    --Adaptive utilizes breakpoints and different styling at certain points where fully responsive does all this plus is built with percentages instead of hard coded pixels allowing it to adapt to any sized window.
+
+
+    Describe what it means to be mobile first vs desktop first.
+
+    --mobile first means you built the website for a mobile screen first and you use media queries with MIN WIDTH to change the styling as the screen gets larger. 
+    --desktop first means you build a desktop website first then utilize media queries with MAX WIDTH to restyle it for smaller screens as you go. 
+
+
+    What does font-size: 62.5% in the html tag do for us when using rem units?
+
+    --Setting the font size to 62.5% in the HTML tag sizes the font size so that 1 REM = 10.0 px which is a much easier number to work with when you want to scale it up and down then the typical browser defaults. 20PX =2.0REM etc. 
+
+
+    How would you describe preprocessing to someone new to CSS?
+
+    -- Preprocessing allows you to write shorter more concise code that can also be nested as it is in the HTML in the CSS. It also unlocks features such as variables and mixins, The code is then ran through a compiler and "processed" into raw CSS code which can be used by the browser. In short it unlocks a lot of helpful features, and allows us to write shorter and better looking code when we are building. 
+
+
+    What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    -- My favorite part of preprocessing is probably the nesting of CSS code. It is visually more pleasing and a lot easier to keep track of where everything you need to change is. I also find variables extremely useful for colors i am going to reuse many times. The hardest part of preprocessing to me would be constantly making sure the compiler is running or having it stop running when i have a small error somewhere in the code causing me to think my code isnt working when its just not being compiled. 
